@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <aside className=" fixed left-0 top-0 w-[15%] h-screen shadow-md">
           <Sidebar />
         </aside>
-        <main className=" w-[85%] ml-auto min-h-screen p-5">{children}</main>
+        <main className=" w-[85%] ml-auto min-h-screen">{children}</main>
       </body>
     </html>
   );
