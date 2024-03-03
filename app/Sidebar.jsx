@@ -9,7 +9,7 @@ const Sidebar = () => {
   const [activeLink, setActiveLink] = useState(location);
 
   return (
-    <aside className="w-full h-screen bg-green-100 ">
+    <aside className="w-full h-screen bg-blue-200 ">
       <div className="flex flex-col w-full ">
         <span className="w-full py-2.5 text-lg font-bold text-center border-b ">
           Rayyan.Dev
