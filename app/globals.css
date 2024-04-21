@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  scroll-behavior: smooth;
+}
+
 .navlink-bg {
   background: -moz-radial-gradient(
     circle at 3% 25%,
@@ -36,4 +40,27 @@
     rgba(0, 40, 83, 1) 0%,
     rgba(4, 12, 24, 1) 25%
   );
+}
+
+.sidebar-bg {
+  background-image: linear-gradient(
+    to right bottom,
+    #ff00c5,
+    #d500c3,
+    #a800bf,
+    #7500ba,
+    #2d00b2
+  );
+}
+
+.bg{
+  background-image: linear-gradient(to right top, #191a1c, #191c1e, #1a1e1e, #1c201d, #20211d);
+}
+
+.about-bg{
+  background-image: linear-gradient(to right top, #353536, #272727);
+}
+
+.shadow-1{
+  box-shadow: 5px 5px 9px 5px rgba(0, 0, 0, 0.15);
 }
